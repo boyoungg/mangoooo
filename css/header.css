@@ -1,0 +1,23 @@
+
+
+/*header*/
+header{background-color: #edfbff7a; position: fixed; width: 100vw; height: 50px; top: 0; left: 0; z-index: 999; border-bottom: solid 2px  #bfdee6; }
+
+header nav{display: flex; width: 80vw; margin: 0 auto;}
+
+nav #logo{padding-top: 7px; margin-right: auto;}
+nav #logo img{width: 140px;}
+
+nav #topMenu{  margin-top: 15px; }
+nav #topMenu li{font-size: 18px; text-align: center;  display: inline-block; font-family: 'TmoneyRoundWindExtraBold'; font-size: 18px;  padding: 0 20px; margin-left: 10px;}
+nav #topMenu li a{color: #85b2bd;}
+nav #topMenu li a:hover{color: #558794;}
+nav #topMenu #downBtn{padding-left: 20vw;}
+nav .menu-btn{width: 40px; height: 40px; border: solid 1px red; margin-top: 4px; display: none; background-color: #400bff;}
+
+/* @keyframes topMenu {
+    0%{transform: translateY(-50px);}
+    100%{transform: translateY(0);}
+} */
+
+

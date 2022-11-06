@@ -1,0 +1,62 @@
+/* #MangoAni{position: relative; bottom: 0; z-index: 99;}
+#animation-back{display: none; transition: 2s; height: 800px; position: fixed; bottom: -10px; left: -30px; opacity: 0;
+transform: ;} */
+
+/*main animation*/
+.animationSection{width: 100vw; height: 100vh;}
+#section-back-01{background: linear-gradient( to bottom, #FFF5D1 20%, #ffe8aa);}
+#section-back-02{background: linear-gradient( to bottom, #ffe8aa 20%, #E8FAFF);}
+#section-back-03{background: linear-gradient( to bottom, #E8FAFF 20%, #FFF5D1);}
+#ani-back{position: fixed; bottom: -5px; left: 0; }
+#ani-back img{height: 150px;}
+/* #ani-cha{position: fixed;bottom: 10px; left: 0;} */
+/* #ani-cha img{height: 150px;} */
+#ani-bottom{position: fixed;bottom: -10px; left: 5px; }
+#ani-bottom img{height: 40px;}
+.target{width: 100px;height: 100px;}
+#ani-text img{width: 300px;}
+#ani-text{position: fixed; bottom: 180px; left: 0; display: none;}
+
+#ani-cha {
+    position:fixed;
+    bottom: -10px; left: 0;
+    width:150px;
+    height:150px;
+    background: url('../img/mainGif.png') no-repeat;
+    background-size:cover;
+    
+}
+
+#ani-cha.move{
+    animation: run 1.5s infinite steps(6);
+}
+
+@keyframes run {
+    0%{}
+    100% {
+        background-position: -900px 0;
+ 
+    }
+}
+@keyframes app {
+    0%{top: 120px;}
+    50% {
+        top: 110px;
+ 
+    }
+    100%{top: 120px;}
+}
+ 
+ 
+
+/*overview*/
+/* .a-ch.display{} */
+
+/*service backround animation*/
+.circleY {width: 50px; height: 50px; background-color: #ffdb58; border-radius: 1000px; position: relative; top: 0; right: 504px; z-index: -99;  transition:all 1s ease-in-out;}
+
+.circleY.yellow-circle {width: 600px; height: 600px; background-color: #ffdb58;  position: absolute; top: 550px; right: 304px; z-index: -99;}
+
+.circleY.second-circle { width: 1660px; height: 800px; position: absolute; top: 1700px; right: 120px; z-index: -99; border-radius: 70px; background-color: #ffe37f; }
+
+.circleY.third-circle { width: 95vw; height: 550px; position: absolute; top: 3400px; right: 0; z-index: -99; border-radius: 1000px 0 0 1000px; background-color: #f5f5f5;}

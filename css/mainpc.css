@@ -1,0 +1,217 @@
+/* Main Section */
+#mainSection{width: 100vw; background: linear-gradient( to bottom, #E8FAFF 70%, #FFF5D1); height: 100vh; z-index: -999; }
+#mainSection #mainPos{ padding-top: 400px; position: fixed;}
+#mainSection #mainPos .main-logo img{width: 700px;}
+#mainSection #mainApp-img {position: fixed; top: 120px; right: 200px;  animation: app 4s infinite }
+#mainSection #mainApp-img img{width: 750px;}
+
+
+/*Video Section*/
+#sec01{ background-color: #fff; z-index: 1;}
+#sec01 .section-title{margin-top: 5vw;}
+#sec01 #videoSection{ margin-top: 30px; text-align: center; }
+
+/* PLANNING - overview */
+#planning #overview{height: 700px; position: relative;}
+#planning #overview #overview-text .main-title{text-align: left; margin: 60px 0 50px 0;}
+#planning #overview #overview-text p{font-size: 18px; }
+/* #planning #overview .overview-character #back img{width: 800px; position: absolute; top: 100px; right: -20px; opacity: 0.5;} */
+#planning #overview .overview-character .a-ch{position: absolute; top: 70px; right: 470px;}
+#planning #overview .overview-character .a-ch img{width: 350px;}
+
+#planning #overview .overview-character .b-ch{position: absolute; top: 90px; right: 200px;}
+#planning #overview .overview-character .b-ch img{width: 280px;}
+
+#planning #overview .overview-character .c-ch{position: absolute; top: 280px; right: 560px;}
+#planning #overview .overview-character .c-ch img{width: 320px;}
+
+#planning #overview .overview-character .d-ch{position: absolute; top: 250px; right: 100px;}
+#planning #overview .overview-character .d-ch img{width: 320px;}
+
+#planning #overview .overview-character .e-ch{position: absolute; top: 240px; right: 360px;}
+#planning #overview .overview-character .e-ch img{width: 280px;}
+
+/* PLANNING - 갓생망생 의미 설명 페이지 */
+#planning .mean-section{width: 100vw; height: 100vh; position: relative;}
+#planning .mean-section .sky-back{width: 100vw;  height: 45%; background-color: #e8fbff; margin-top: 75px;}
+#planning .mean-section .yellow-back{ width: 100vw;  height: 45%; background-image: url(../animation/back2.png); background-repeat: no-repeat; background-size: contain; background-color: #FFFCB5;}
+#planning .mean-section .sky-back .sky-img{}
+#planning .mean-section .sky-back .sky-img img{ position: absolute; top: 345px; right: 700px;}
+#planning .mean-section .sky-back .sky-img-02 img{ position: absolute; top: 70px; right:200px;}
+#planning .mean-section .sky-back .sky-img-03 img{ position: absolute; top: 120px; right:635px;}
+#planning .mean-section .sky-back .sky-img-04 img{ position: absolute; top: 255px; right:325px;}
+#planning .mean-section .sky-back .sky-img-05 img{ position: absolute; top: 0; right:470px;}
+#planning .mean-section .sky-back .sky-img-06 img{ position: absolute; top: 319px; right:400px;}
+#planning .mean-section .sky-back .sky-img-07 img{ position: absolute; top: 136px; right:400px;}
+#planning .mean-section .sky-back .sky{ position: absolute; top: 50px; left:250px;}
+#planning .mean-section .sky-back .sky-01{ position: absolute; top: 70px; left:580px;}
+
+
+
+
+
+/* PLANNING - survey */
+#planning #survey{height: auto;}
+#planning #survey #survey-text h2{margin-top: 50px;}
+#planning #survey #survey-chart{display: flex; margin-top: 50px;  justify-content: center;}
+#planning #survey #survey-chart #chartWrap{margin: 20px; width: 700px; height: 50vh; border-radius: 50px; background: #ffffff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); text-align: center;}
+#planning #survey #survey-chart #chartWrap h3{font-family: 'pretendard'; font-weight: 600; font-size: 34px; color: #262626;  margin-top: 50px;}
+#planning #survey #survey-chart #chartWrap span{color: #999; font-size: 18px;}
+#planning #survey .survey-dot{ height: 200px;  padding-top: 70px;}
+#planning #survey .survey-dot .dot{width: 15px; height: 15px; margin: 0 auto; margin-bottom: 20px; border-radius: 50px; background-color: #FF9838;}
+
+/* PLANNING - user research */
+#planning #user{ height: 800px; background-image: url('../img/persona.png'); background-repeat: no-repeat; background-size: cover;}
+#planning #user .user-img-section{display: flex; height: 30vh; justify-content: center;}
+#planning #user .user-img-section .user-img{width: 500px; margin: 80px 5px 0 5px;}
+#planning #user .user-img-section .user-img img{width: 25vw;}
+
+
+/* PLANNING - ux goal */
+#planning #uxGoal{ height: 850px; background-color: #FFDB58;}
+#planning #uxGoal .ux-text{margin-top: 50px;}
+#planning #uxGoal .ux-text .ux-img-wrap{display: flex; justify-content: center; margin-top: 50px;}
+#planning #uxGoal .ux-text .ux-img-wrap .ux-img img{width: 570px;}
+
+
+/* PLANNING - wireframe */
+#planning #wireFrame{ height: 750px; background-image: url('../img/wireframe.png'); background-repeat: no-repeat; background-size: cover;}
+
+/* DESIGN - NAMING */
+#design #naming{height: 100vh;}
+#design #naming h2{margin-bottom: 50px;}
+#design #naming .design-img{text-align: center; margin-top: 50px;}
+#design #naming .design-img img{width: 1025px;}
+#design #naming .logo-text{margin-top: 100px;}
+#design #naming .logo-text .logo-mean{ font-family: 'pretendard'; color: #555; font-size: 36px; text-align: center; font-weight: 600;}
+#design #naming .logo-text p{text-align: center; margin-top: 50px;}
+
+/* DESIGN - ICON */
+#design #icon{height: 600px; background-color: #f5f5f5;}
+#design #icon .design-inner1 h3{padding-top: 70px;}
+#design #icon .icon-img {text-align: center; margin: -70px 0 0 -100px;}
+#design #icon .icon-img img{ width: 1800px;}
+
+/* DESIGN - color */
+#design #color{height: 90vh; }
+#design #color .design-inner1 h3{margin-top: 150px;}
+#design #color .textSection h4{ }
+#design #color .colorWrap {display: flex; margin-top: 100px; text-align: center; color: #262626; font-size: 20px; font-family: 'pretendard'; line-height: 30px;}
+#design #color .colorWrap span{font-weight: 700;}
+#design #color .colorWrap p{padding: 110px 0;}
+#design #color .colorWrap .firstColor{width: 40%; height: 300px; background-color: #ffe072; border-radius: 50px 0 0 50px;}
+#design #color .colorWrap .secondColor{width: 40%; height: 300px; background-color: #ff9838;}
+#design #color .colorWrap .thirdColor{width: 20%; height: 300px; background-color: #afe14e; border-radius: 0 50px 50px 0;}
+
+/* DESIGN - Typography */
+#typography{height: 90vh;}
+#typography .typo-img{text-align: center; margin-top: 130px;}
+#typography .typo-img img{width: 1300px;}
+
+/* DESIGN - character */
+#character{height: 100vh;}
+#character .design-inner1{display: flex;}
+#character .design-inner1 h3{margin-top: 100px;}
+#character .design-inner1 .textSection{margin: 100px 0 0 30px;}
+#character .characterWrap {display: flex; height: 70vh; margin-top: 100px;}
+#character .characterWrap .characterGif{width: 20%;}
+#character .characterWrap .characterGif .character-img-sec{text-align: center; height: 230px; margin-top: -50px;}
+/* #character .characterWrap .characterGif .character-img-sec img{width: ;} */
+#character .characterWrap .characterGif .characterName{font-family: 'pretendard'; font-weight: 700; font-size:  32px; color: #262626; text-align: center; margin: 140px 0 30px 30px;}
+.name-style{border: 1px #555 solid; display: block; width: 100px; padding: 10px; text-align: center; border-radius: 50px; margin: 10px auto; color: #555; font-family: 'pretendard'; font-weight: 400;}
+
+/* SERVICE - APPBACKGROUND */
+#service #appback{height: 585px; background: url('../img/servImg.png'); background-size: contain; background-repeat: no-repeat;}
+
+/* SERVICE - TODOLIST */
+#service #todoService{width: 100vw; height: 1500px;position: relative;}
+#service #todoService .design-inner1 .sub-title{padding-top: 100px; line-height: 55px;}
+#service #todoService .design-inner1 .keyword-text{display: inline-block; margin: -90px 0 0 -30px;  }
+#service #todoService .design-inner1 .keyword-text li{margin-right: 5px;}
+#service #todoService .design-inner1  p{margin-top: 30px;}
+#service #todoService .todo-img-wrap{width: 100vw; height: 500px; margin-top: 100px; display: flex; text-align: center; justify-content: center;}
+#service #todoService .todo-img-wrap .todo-img{margin: -30px 0 0 50px;}
+#service #todoService .todo-img-wrap .todo-img img{width: 280px;}
+#service #todoService .todo-img-wrap .todo-last{margin: -30px 0 0 50px;}
+#service #todoService .todo-img-wrap .app-img{margin: -270px 0 0 50px;}
+#service #todoService .todo-img-wrap .app-img img{width: 400px;}
+#service #todoService .todo-img-wrap .app-img-frame{position: absolute; top: 440px; right: 413px;}
+#service #todoService .todo-img-wrap .app-img-frame img{width: 380px;}
+
+
+
+/* SERVICE - MANGOMAP */
+#service #mangomap {width: 100vw; height: 100vh; position: relative;}
+#service #mangomap .inner1{margin-top: 130px; height: 80vh; }
+#service #mangomap .design-inner1 .sub-title{padding: 100px 0 0 700px; line-height: 55px; color: #ff6b00;}
+#service #mangomap .design-inner1 .keyword-text{display: block;  margin: -90px 0 0 0; margin-left: 670px;}
+#service #mangomap .design-inner1 .keyword-text li{margin-right: 5px; background-color: #fff; border: none;}
+#service #mangomap .design-inner1  p{margin-top: 30px; padding-left: 700px;}
+#service #mangomap .map-app{ position: absolute; top: 128px; left: 200px;}
+#service #mangomap .map-app img{width: 1000px;}
+
+
+/* SERVICE - MANGODIARY */
+#service #mangodiary{width: 100vw; height: 1500px;position: relative;}
+#service #mangodiary .design-inner1 .sub-title{padding-top: 100px; line-height: 55px;}
+#service #mangodiary .design-inner1 .keyword-text{display: inline-block;  margin: -90px 0 0 -30px;}
+#service #mangodiary .design-inner1 .keyword-text li{margin-right: 5px;}
+#service #mangodiary .design-inner1  p{margin-top: 30px;}
+#service #mangodiary .design-app img{position: absolute; width: 1100px; top: 703px; left: 400px;}
+
+/* SERVICE - report */
+#service #report {width: 100vw; height: 1400px; background: linear-gradient( to bottom, #ffdb58 70%, #f5f5f5 30%); position: relative;}
+#service #report .design-inner1 .sub-title{padding: 100px 0 0 700px; line-height: 55px; color: #ff6b00;}
+#service #report .design-inner1 .keyword-text{display: block;  margin: -90px 0 0 -30px; margin-left: 670px;}
+#service #report .design-inner1 .keyword-text li{margin-right: 5px; background-color: #fff;}
+#service #report .design-inner1  p{margin-top: 30px; padding-left: 700px;}
+#service #report .report-app img{position: absolute;  top: 100px; left: 200px; width: 1500px;}
+
+/* SERVICE - TEST */
+#service #mangoTest{width: 100vw; height: 1600px; background: linear-gradient( to bottom, #ffffff 70%, #FFDB58 30%);}
+#service #mangoTest .design-inner1 .sub-title{padding-top: 150px; line-height: 55px;}
+#service #mangoTest .design-inner1 .keyword-text{display: inline-block;  margin: -90px 0 0 -30px;}
+#service #mangoTest .design-inner1 .keyword-text li{margin-right: 5px;}
+#service #mangoTest .design-inner1  p{margin-top: 30px;}
+
+/* SERVICE - JOINMANGO */
+#service #joinmango {width: 100vw; height: 1600px; background-color: #f5f5f5; position: relative;}
+#service #joinmango .design-inner1 .sub-title{padding: 300px 0 0 700px; line-height: 55px; color: #ff6b00;}
+#service #joinmango .design-inner1 .keyword-text{display: inline-block;  margin: -90px 0 0 -30px; margin-left: 670px;}
+#service #joinmango .design-inner1 .keyword-text li{margin-right: 5px; background-color: #fff;}
+#service #joinmango .design-inner1  p{margin-top: 30px; padding-left: 700px;}
+#service #joinmango .joinmango-app img{position: absolute;  top: 500px; left: 200px; width: 1500px;}
+
+/*목업*/
+.app01{width: 100vw; height: 2390px; background-image: url(../img/last01.png); background-size: cover;}
+.app02{width: 100vw; height: 100vh; background-image: url(../img/last02.png); background-size: cover;}
+
+@media screen and (max-width: 1600px) {
+    nav #topMenu{font-size: 1vw;}
+    nav #topMenu #downBtn{padding-left: 2vw;}
+    
+}
+
+@media screen and (max-width: 1023px) {
+    /*반응형 헤더 부분*/
+    header nav{display: block; width: 100vw;}
+
+    nav #logo{padding-left: 30px;}
+    /* animation: topMenu .5s forwards; */
+    nav #topMenu{display: none;}
+    nav #topMenu.active{display: block;}
+    nav #topMenu li{display: block; background-color: #f6fdff; border-bottom: solid 1px #dcf7ff; padding: 10px 0; margin: 0;}
+    nav #topMenu li:hover{background-color: rgb(255, 255, 255);}
+
+    nav #topMenu #downBtn{padding-left: 0;}
+
+    nav .menu-btn{display: block; position: absolute; top: 0; right: 30px;}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}

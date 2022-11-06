@@ -1,0 +1,156 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header{
+    background-color: #EDFBFF;
+    border-bottom: solid 2px  #bfdee6;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 99;
+}
+
+header nav{display: flex;  }
+header nav #logo{margin: 10px 50px;}
+
+#MainMenu{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+#TopMenu{display: flex; margin-right: 200px;}
+
+#MainMenu li{
+    margin: 8px 20px;
+    padding: 5px 20px;
+}
+
+#MainMenu a{
+    color:  #85b2bd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#MainMenu a:hover{color: #558794; font-weight: 900;}
+
+.downLoadBtn{
+    margin: 8px 10px 8px 50px;
+    padding: 5px 20px;
+    
+    border-radius: 50px;
+   
+}
+
+.sectionWrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+.titleBtn{border: solid 1px #555555; width: 115px; text-align: center; border-radius: 50px; padding: 3px; margin-bottom: 15px;}
+.titleBtn1{border: solid 1px #555555; width: 150px; text-align: center; border-radius: 50px; padding: 3px; margin-bottom: 15px;}
+
+.textBox{padding: 50px 50px; }
+
+.pointText{color: #FF9838; font-weight: 900;}
+#sectionPosition{position: relative; top: 1300px; z-index: -9;} 
+
+/* 섹션 1 */
+
+#sec01{
+    position: fixed;
+    background-image: url('../img/PAGE1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#MainText{
+    /* border: solid 1px red; */
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+#sec01_h4{color: rgb(255, 187, 92);}
+#sec01_title{font-size: 100px; color: rgb(255, 149, 0); padding-bottom: 50px;}
+#sec01_text{font-size: 30px;}
+
+/* 섹션 2 */
+#sec02 {text-align: center;}
+#sec02 img{
+    margin-top: 65px;
+    width: 70vw;
+}
+
+
+/* 섹션 3 */
+#sec03{width: 100vw; height: 500px; position: relative; box-shadow: 12px 12px 2px 1px rgba(209, 209, 209, 0.2);}
+
+#pos0{ position: absolute; right:110px; bottom: 100px; }
+#pos1{ position: absolute; right:350px; bottom: 80px; }
+#pos2{ position: absolute; right:400px; bottom: 0; }
+#pos3{ position: absolute; right:40px; bottom: 0; }
+#pos4{ position: absolute; right:290px; bottom: 0; }
+
+
+.textBox p{padding-top: 20px; font-size: 18px;}
+.textBox h2{font-size: 35px; line-height: 45px; color: #FF9838; font-weight: 800;}
+
+#subText{font-size: 12px; line-height: 20px; color: #262626; margin-top: 50px;}
+
+
+/* 섹션 4 */
+
+#sec04{height: 900px;}
+.surbeyText{width: 1200px; height: 100px; text-align: center; font-size: 40px; border: solid 1px red; margin: 0 auto; margin-top: 20px; margin-bottom: 50px;}
+.surbeyText h2{line-height: 50px; font-weight: 700; font-family: 'pretendard';}
+.boldText{color: #FF9838;}
+.surbeySection{width: 80%; height: 400px; margin: 0 auto;  border: solid 1px rebeccapurple; border-radius: 50px;}
+
+#surbeymain{ display: flex;}
+.bar-sec{width: 600px; height: 350px; margin: 0 auto; border: solid 1px red; margin-top: 20px; border-radius: 50px; text-align: center;}
+.bar-main{font-size: 25px; font-weight: 700; }
+.circle{width: 1000px; height: 30px; border: solid 1px red; text-align: center; margin: 0 auto;}
+.circleWrap{width: 15px; height: 15px; border-radius: 50px; background-color: rgb(87, 87, 76); text-align: center; margin: 0 auto;}
+
+/* 섹션  5 */
+#sec05{ width: 100vw; height: 500px; border: solid 1px red;}
+.userImg{width: 200vw; height: 250px; border: solid 1px blue;}
+.ImgWrap{ border: solid 1px green; display: inline-block; margin: 30px 20px;}
+
+/* 섹션 06 */
+
+.personaImg{width: 40%; height: 70vh; border: solid 1px red;}
+.personaTable{margin-left: 30px; width: 60%; height: 70vh; border: solid 1px blue;}
+.personaText{ border: solid 1px red; text-align: center; font-size: 22px; line-height: 35px; color: #FF9838; font-weight: bold;}
+.perCha{border: solid 1px blue;}
+.perCha img{margin-left: 80px; padding-top: 18px;}
+.topWrap{width: 90%; height: 30%; border: solid 1px yellow; margin: 20px 0;}
+.topWrap h2{font-size: 25px; text-align: center; line-height: 40px; margin-top: 35px;}
+.botWrap{width: 90%; height: 60%; border: solid 1px green;}
+.borderR{border-radius: 20px;}
+
+
+
+
+/* 애니메이션 */
+#MangoAni{display: none; }
+#backgroundImg{position: fixed; left: 0; bottom: -2px;}
+#bottomImg{position: fixed; left: 0; bottom: 0;}
+#character{position: fixed; left: 0; bottom: 25px;}
+#character.active{animation: skate 1s infinite;}
+@keyframes skate {
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(10deg);}
+    100% {transform: rotate(5deg);}
+}
